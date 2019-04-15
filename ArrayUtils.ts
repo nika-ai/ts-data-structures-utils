@@ -1,11 +1,4 @@
-import {ObjectUtils} from './';
-
 export class ArrayUtils {
-    static getClone(arr:Array<any>):Array<any> {
-        const clone = ObjectUtils.getClone(arr);
-        return Array.isArray(clone) ? clone : [];
-    }
-
     static getUniqueItems<T>(arr:Array<T>):Array<T> {
         return arr.filter((item, i) => arr.indexOf(item) === i);
     }
