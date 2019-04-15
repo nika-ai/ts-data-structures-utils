@@ -1,0 +1,15 @@
+{
+  "name": "data-structures-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balov Bohdan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.11.4"
+  }
+}
